@@ -21,20 +21,24 @@
         </div>
       </div>
       <div class="space-y-4">
-        <div class="text-gray-500 text-base font-semibold">About $AFDT</div>
+        <div class="text-gray-500 text-base font-semibold">About</div>
         <div class="text-white font-medium">support:</div>
-        <div class="text-white font-light">support@afridex.io $AFDT</div>
+        <div class="text-white font-light">
+          <a href="mailto:support@afridex.io">support@afridex.io</a>
+        </div>
       </div>
       <div class="space-y-4">
         <div class="text-gray-500 text-sm font-semibold">Services</div>
         <div class="text-white font-light">
-          <router-link to="/">Listing</router-link>
+          <a href="mailto:listing@afridex.io">Listing</a>
         </div>
         <div class="text-white font-light">
-          <router-link to="/">Partnerships/Institutional Services</router-link>
+          <a href="mailto:business@afridex.io"
+            >Partnerships/Institutional Services</a
+          >
         </div>
         <div class="text-white font-light">
-          <router-link to="/">Investment Offers</router-link>
+          <a href="mailto:investment@afridex.io ">Investment Offers</a>
         </div>
       </div>
       <div class="space-y-4">
@@ -42,21 +46,48 @@
           <router-link to="/">Legal</router-link>
         </div>
         <div class="text-white font-light">
-          <router-link to="/">Privacy and Policy</router-link>
+          <a
+            href="https://docs.google.com/document/d/12O_OnkRXQ0lBF4c_5UxT4tBIA-hKWhN6F-ZHSLSKDhI/edit "
+            >Privacy and Policy</a
+          >
         </div>
         <div class="text-white font-light">
-          <router-link to="/">Terms of Use</router-link>
+          <a
+            to="https://docs.google.com/document/d/14KDMkbTQCXbCxXDUJyyzDK7Ijk6SS3_7QtRuL-RTvZM/edit"
+            >Terms of Use</a
+          >
         </div>
       </div>
     </div>
-    <div class="flex-items-center flex flex-col md:flex-row justify-between text-gray-500">
+    <div
+      class="
+        flex-items-center flex flex-col
+        md:flex-row
+        justify-between
+        text-gray-500
+      "
+    >
       <div class="text-base">
         &copy; {{ getYear }} Afridex Exchange. All rights reserved.
       </div>
       <div class="space-x-4">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin"></i>
-        <i class="fab fa-facebook"></i>
+        <a href=" https://twitter.com/afridexfinance ">
+          <i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/company/afridex-finance-blockchain-company"
+        >
+          <i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://facebook.com/afridexfinance/"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.youtube.com/channel/UCr4aopcKIc2HbxbhHEcVbLQ"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://t.me/afridexfinance"
+          ><i class="fab fa-telegram"></i
+        ></a>
       </div>
     </div>
   </section>
