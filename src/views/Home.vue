@@ -7,6 +7,7 @@
     <list-banner></list-banner>
     <eco-system />
     <blog />
+    <BaseFooter />
   </section>
 </template>
 
@@ -18,10 +19,11 @@ import WhyUs from "@/components/WhyUs";
 import ListBanner from "../components/ListBanner.vue";
 import EcoSystem from "@/components/EcoSystem.vue";
 import Blog from '@/components/blog.vue';
+import BaseFooter from '@/components/BaseFooter.vue';
 // @ is an alias to /src
 
 export default {
   name: "Home",
-  components: { WhyUs, BuyBanner, TradingTable, Hero, ListBanner, EcoSystem, Blog },
+  components: { WhyUs, BuyBanner, TradingTable, Hero, ListBanner, EcoSystem, Blog, BaseFooter },
 };
 </script>
