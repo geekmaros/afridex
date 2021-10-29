@@ -1,6 +1,6 @@
 <template>
-  <main class="relative">
-    <NavBar class="sticky top-0"></NavBar>
+  <main class="relative overflow-x-hidden">
+    <NavBar class="sticky hidden top-0"></NavBar>
     <router-view />
   </main>
 </template>

@@ -1,11 +1,24 @@
 <template>
-  <section class="hero h-screens pt-20 pb-44 bg-no-repeat bg-bottom bg-cover pl-88px pr-101 w-full" :style="cssProps">
-    <div class="flex items-center h-screen justify-between">
+  <section
+    class="
+      hero
+      pb-44
+      bg-no-repeat lg:bg-bottom bg-cover
+      pl-5
+      pr-5
+      lg:pl-88px lg:pr-101
+      w-full
+      relative
+    "
+    :style="cssProps"
+  >
+    <nav-bar></nav-bar>
+    <div class="flex items-center pt-20 h-auto lg:h-screen justify-between">
       <div class="left">
         <span class="leading-5 font-bold text-afridex-blue-200"
           >TRADE SMARTER, NOT HARDER</span
         >
-        <h1 class="text-white font-bold text-6xl max-w-md mt-5">
+        <h1 class="text-white font-bold text-6xl md:max-w-md mt-5">
           Crypto Trading for Everyone
         </h1>
         <p class="text-white text-2xl mt-6 max-w-lg">
@@ -38,7 +51,9 @@
 </template>
 
 <script>
+import NavBar from "./NavBar.vue";
 export default {
+  components: { NavBar },
   name: "Hero",
   data() {
     return {
@@ -46,6 +61,7 @@ export default {
         backgroundImage: `url(${require("@/assets/images/herobg.png")})`,
       },
       heroSvg: `${require("@/assets/svg/heroasset.svg")}`,
+      showAside: true,
     };
   },
 };

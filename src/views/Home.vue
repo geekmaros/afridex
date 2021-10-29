@@ -1,6 +1,6 @@
 <template>
   <section>
-    <hero></hero>
+    <hero class=""></hero>
     <TradingTable></TradingTable>
     <BuyBanner></BuyBanner>
     <WhyUs></WhyUs>

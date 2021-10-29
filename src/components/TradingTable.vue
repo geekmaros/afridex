@@ -1,7 +1,7 @@
 <template>
-  <section class="pt-16 pb-12 2xl:pt-5 pl-88px pr-101 w-full">
+  <section class="pt-16 pb-12 2xl:pt-5 md:pl-88px md:pr-101 px-10 md:px-0 w-full">
     <div class="heading text-center">
-      <h2 class="text-black font-bold text-54px leading-56px">
+      <h2 class="text-black font-bold text-2xl md:text-54px leading-56px">
         Start Trading Crypto Assets
       </h2>
       <p class="text-afridex-gray-100 text-2xl leading-56px">

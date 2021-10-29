@@ -1,8 +1,8 @@
 <template>
-  <section class="hero h-auto pt-16 pb-16 bg-afridex-blue-300 bg-no-repeat bg-bottom bg-cover pl-88px pr-101 w-full" :style="cssProps">
-    <div class="flex w-full items-center justify-between">
-      <div class="left">
-        <h1 class="text-white font-bold text-54px max-w-41rem mt-5">
+  <section class="hero h-auto pt-16 pb-16 bg-afridex-blue-300 bg-no-repeat bg-bottom bg-cover px-10 md:px-0 md:pl-88px md:pr-101 w-full" :style="cssProps">
+    <div class="flex flex-col md:flex-row w-full items-center justify-between">
+      <div class="left mb-16 md:mb-0">
+        <h1 class="text-white font-bold text-4xl leading-relaxed md:text-54px max-w-41rem mt-5">
           LIST your project token/coin on AFRIDEX exchange, it is a fast and easy process! 
 
         </h1>

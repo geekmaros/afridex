@@ -1,8 +1,28 @@
 <template>
-  <section class="hero h-auto pt-20 pb-20 bg-afridex-blue-300 pl-88px pr-101 w-full">
-    <div class="flex w-full items-center justify-between">
-      <div class="left">
-        <h1 class="text-black font-semibold text-54px max-w-41rem mt-5">
+  <section
+    class="
+      hero
+      h-auto
+      pt-20
+      pb-20
+      bg-afridex-blue-300
+      px-10
+      md:px-5 md:pl-88px md:pr-101
+      w-full
+    "
+  >
+    <div class="flex flex-col md:flex-row w-full items-center justify-between">
+      <div class="left mb-16 md:mb-0">
+        <h1
+          class="
+            text-black
+            font-semibold
+            text-5xl
+            md:text-54px
+            max-w-41rem
+            mt-5
+          "
+        >
           Buy AFRIDEX Governance Token $AFDT via AFRIDEX PAY.
         </h1>
         <p class="text-afridex-gray-200 text-2xl mt-6 max-w-lg">Listing soon</p>
@@ -26,7 +46,7 @@
       </div>
       <div class="right">
         <inline-svg :src="buybannerSvg"></inline-svg>
-        <img :src="buybannerSvg" alt="">
+        <img :src="buybannerSvg" alt="" />
       </div>
     </div>
   </section>

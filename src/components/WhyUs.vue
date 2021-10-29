@@ -1,12 +1,12 @@
 <template>
-  <section class="pt-24 pb-24 2xl:pt-5 pl-88px pr-101 w-full">
+  <section class="pt-24 pb-24 2xl:pt-5 px-10 md:px-0 md:pl-88px md:pr-101 w-full">
     <div class="heading text-center">
-      <h2 class="text-black font-bold text-54px leading-56px">
+      <h2 class="text-black font-bold text-4xl md:text-54px leading-56px">
         Why Use AFRIDEX
       </h2>
     </div>
 
-    <div class="grid grid-cols-3 gap-8 mt-42px">
+    <div class="grid md:grid-cols-3 gap-8 mt-42px">
       <div
         v-for="(why, index) in whyUs"
         :key="`why-${index}`"
@@ -22,6 +22,7 @@
           transition-all
           duration-500
           ease-in-out
+          py-10
         "
       >
         <img :src="imageUrl(why.imageUrl)" alt="" />

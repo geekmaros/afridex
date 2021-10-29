@@ -1,5 +1,5 @@
 <template>
-  <section class="pt-24 pb-24  2xl:pt-5 pl-88px pr-101 w-full">
+  <section class="pt-24 pb-24 md:pl-88px px-10 md:px-0 md:pr-101 md:w-full">
     <div class="heading text-center">
       <span class="eco text-sm font-semibold px-4 text-afridex-blue p-2"
         >The Ecosystem</span
@@ -7,7 +7,7 @@
       <h2 class="text-black mt-4 font-bold text-34px leading-56px">
         AFRIDEX ECOSYSTEM
       </h2>
-      <p class="text-afridex-gray-200 mx-auto text-xl mt-6 max-w-3xl">
+      <p class="text-afridex-gray-200 md:mx-auto text-xl mt-6 md:max-w-3xl">
         AFRIDEX will release exciting products into the blockchain ecosystem
         that will aid the company’s vision of deploying blockchain solutions to
         enhance cross-utilization and improve the customer journey in the
@@ -15,13 +15,13 @@
       </p>
     </div>
 
-    <div class="grid grid-cols-3 gap-8 mt-42px">
+    <div class="grid md:grid-cols-3 gap-8 mt-42px">
       <div
         v-for="(why, index) in whyUs"
         :key="`why-${index}`"
         class="
           card
-          max-w-xs
+          md:max-w-xs
           flex flex-col
           items-center
           rounded-lg
@@ -30,6 +30,7 @@
           transition-all
           duration-500
           ease-in-out
+          mb-6 md:mb-0
         "
       >
         <div class="align-center">
