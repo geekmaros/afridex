@@ -38,13 +38,16 @@ module.exports = {
         "afridex-blue": "#0F92BF",
         "afridex-blue-200": "#86E0FF",
         "afridex-blue-300": "#f4f9ff",
+        "afridex-gray-50": "#F9FAFB",
         "afridex-gray-100": "#777E91",
         "afridex-gray-200": "#B1B5C4",
         "afridex-gray-300": "#FCFCFD",
-        "afridex-green-100": "#58BD7D",
+        "afridex-green-100": "#58BD7D",  
+
       },
       lineHeight: {
         "12px": "12px",
+        "44px": "44px",
         120: "120%",
         124: "124%",
         160: "160%",

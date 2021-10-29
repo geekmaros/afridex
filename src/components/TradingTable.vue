@@ -150,14 +150,14 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-section {
-  th {
+<style scoped>
+ 
+ section th {
     font-weight: normal !important;
     padding-bottom: 20px;
   }
-  td {
+  section td {
     padding-bottom: 10px;
-  }
+  
 }
 </style>

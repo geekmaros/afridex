@@ -1,6 +1,6 @@
 <template>
   <main class="relative">
-    <NavBar class="stickys top-0"></NavBar>
+    <NavBar class="sticky top-0"></NavBar>
     <router-view />
   </main>
 </template>
