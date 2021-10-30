@@ -21,7 +21,7 @@
         :key="`why-${index}`"
         class="
           card
-          md:max-w-xs
+          md:max-w-lg
           flex flex-col
           items-center
           rounded-lg
@@ -45,7 +45,7 @@
             {{ why.title }}
           </h2>
 
-          <p class="text-afridex-gray-100 text-lg leading-30px max-w-266pxs">
+          <p class="text-afridex-gray-100 text-base leading-30px max-w-266pxs">
             {{ why.desc }}
           </p>
         </div>
