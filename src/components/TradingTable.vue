@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-16 pb-12 2xl:pt-5 md:pl-88px md:pr-101 px-10 md:px-0 w-full"
+    class="pt-16 pb-12 2xl:pt-5 md:pl-88px md:pr-101 px-5 md:px-0 w-full"
   >
     <div class="heading text-center">
       <h2
