@@ -13,12 +13,12 @@
     :style="cssProps"
   >
     <nav-bar></nav-bar>
-    <div class="flex items-center pt-20 h-auto lg:h-screen justify-between">
+    <div class="flex items-center pt-18 h-auto lg:h-screen justify-between">
       <div class="left">
         <span class="leading-5 font-bold text-afridex-blue-200"
           >TRADE SMARTER, NOT HARDER</span
         >
-        <h1 class="text-white font-bold text-6xl md:max-w-md mt-5">
+        <h1 class="text-white font-black leading-76px text-6xl md:max-w-md mt-5">
           Crypto Trading for Everyone
         </h1>
         <p class="text-white text-2xl mt-6 max-w-lg">

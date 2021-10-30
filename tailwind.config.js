@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ["Inter", "sans-serif"],
+        serif: ["Moderat", "sans-serif"],
+        sans: ["Moderat", "sans-serif"],
       },
       spacing: {
         "29px": "29px",
@@ -59,6 +60,7 @@ module.exports = {
         "56px": "56px",
         "65px": "65px",
         "71px": "71px",
+        "75px": "75px",
         "80px": "80px",
       },
       letterSpacing: {
