@@ -1,6 +1,14 @@
 <template>
   <section
-    class="pt-24 pb-24 2xl:pt-5 px-10 md:px-0 md:pl-88px md:pr-101 bg-afridex-gray-50 w-full"
+    class="
+      pt-24
+      pb-24
+      2xl:pt-5
+      px-10
+      md:px-0 md:pl-88px md:pr-101
+      bg-afridex-gray-50
+      w-full
+    "
   >
     <div class="flex my-3 justify-between items-center">
       <div class="text-base font-semibold text-afridex-blue">Our Blog</div>
@@ -27,9 +35,17 @@
     </div>
 
     <div class="mt-16 grid md:grid-cols-3 gap-8 gap-y-20 md:gap-y-0">
-      <div v-for="(blog, idx) in blogData" :key="idx" class="flex flex-col">
-        <div class="mb-8">
-          <img :src="require(`@/assets/images/blog/${blog.blog_image}.png`)" alt="" class="w-full h-60" />
+      <a href="#"
+        v-for="(blog, idx) in blogData"
+        :key="idx"
+        class="flex blog-card group flex-col"
+      >
+        <div class="mb-8 overflow-hidden">
+          <img
+            :src="require(`@/assets/images/blog/${blog.blog_image}.png`)"
+            alt=""
+            class="w-full blog-image group-hover:border-4px h-60"
+          />
         </div>
         <div class="mb-3">
           <p class="text-afridex-blue text-sm font-semibold">
@@ -37,7 +53,9 @@
           </p>
         </div>
         <div class="mb-3">
-          <p class="text-2xl font-bold text-black">
+          <p
+            class="text-2xl font-bold text-black group-hover:text-afridex-blue"
+          >
             {{ blog.title }}
           </p>
         </div>
@@ -47,13 +65,19 @@
           </p>
         </div>
         <div class="flex items-center">
-            <div class="mr-3"><img :src="require(`@/assets/images/blog/${blog.owner_image}.png`)" alt="" class="w-auto"></div>
-            <div class="flex-col flex">
-                <h1 class="text-base"> {{blog.owner_name}} </h1>
-                <small class="text-gray-400"> 20 Jan 2022 </small>
-            </div>
+          <div class="mr-3">
+            <img
+              :src="require(`@/assets/images/blog/${blog.owner_image}.png`)"
+              alt=""
+              class="w-auto"
+            />
+          </div>
+          <div class="flex-col flex">
+            <h1 class="text-base">{{ blog.owner_name }}</h1>
+            <small class="text-gray-400"> 20 Jan 2022 </small>
+          </div>
         </div>
-      </div>
+      </a>
     </div>
   </section>
 </template>
@@ -96,4 +120,16 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+section {
+  .group {
+    cursor: pointer;
+    &:hover {
+      .blog-image {
+        transform: scale(1.1);
+        transition: all .85s ease-in-out;
+      }
+    }
+  }
+}
+</style>
