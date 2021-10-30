@@ -15,7 +15,7 @@
     </router-link>
 
     <nav
-      :class="showAside ? 'left-0' : '-left-96'"
+      :class="showAside ? 'left-0' : 'left-out'"
       class="
         nav-side
         bg-afridex-blue
@@ -143,7 +143,10 @@
         </button>
       </div>
     </nav>
-    <div @click="showAside = !showAside" class="hamburger absolute mt-20 -ml-1 md:hidden ml-8 z-50">
+    <div
+      @click="showAside = !showAside"
+      class="hamburger absolute mt-20 -ml-1 md:hidden ml-8 z-50"
+    >
       <svg
         width="37"
         height="36"
@@ -160,11 +163,9 @@
         />
       </svg>
     </div>
-    <div
-      @click="showDropDownMenu = !showDropDownMenu"
-      class="hamburger ml-8 relative z-50"
-    >
+    <div class="hamburger ml-8 relative z-50">
       <svg
+        @click="toggleDropDown"
         width="37"
         class="currentColor"
         height="36"
@@ -193,10 +194,12 @@
           duration-500
           ease-out
           fixed
+          w-44
+          -ml-10
+          md:w-44 md:-mr-2
           px-2
           py-4
           mt-5
-          w-44
         "
       >
         <div class="assets mb-2 flex w-full relative">
@@ -230,11 +233,11 @@
               absolute
               bg-white
               rounded-lg
+              shadow-xl
               py-2
               px-2
-              ml
               -ml-48
-              mt-32
+              mt-32s
               md:mt-0 md:-ml-44 md:mr-32
               flex flex-col
             "
@@ -354,7 +357,10 @@
               rounded-lg
               py-2
               px-2
-              -ml-40
+              md:-ml-40
+              -mt-5
+              md:mt-0
+              -ml-48
             "
           >
             <router-link
@@ -473,7 +479,10 @@
               rounded-lg
               py-2
               px-2
-              -ml-40
+              md:-ml-40
+              -mt-5
+              md:mt-0
+              -ml-48
               flex flex-col
             "
           >
@@ -591,6 +600,12 @@ export default {
       activeMenu: "",
     };
   },
+  methods: {
+    toggleDropDown() {
+      this.activeMenu = "";
+      this.showDropDownMenu = !this.showDropDownMenu;
+    },
+  },
   mounted() {
     if (
       /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -610,6 +625,10 @@ section {
   }
   .right-out {
     right: -40rem;
+  }
+
+  .left-out {
+    left: -40rem;
   }
 }
 </style>

@@ -1,10 +1,22 @@
 <template>
-  <section class="pt-16 pb-12 2xl:pt-5 md:pl-88px md:pr-101 px-10 md:px-0 w-full">
+  <section
+    class="pt-16 pb-12 2xl:pt-5 md:pl-88px md:pr-101 px-10 md:px-0 w-full"
+  >
     <div class="heading text-center">
-      <h2 class="text-black font-bold text-2xl md:text-54px leading-56px">
+      <h2
+        class="
+          text-black
+          font-bold
+          mb-1
+          text-3xl
+          md:text-54px
+          leading-relaxed
+          md:leading-56px
+        "
+      >
         Start Trading Crypto Assets
       </h2>
-      <p class="text-afridex-gray-100 text-2xl leading-56px">
+      <p class="text-afridex-gray-100 text-2xl leading-relaxed md:leading-56px">
         Trade With Safety, Ease & Convenience
       </p>
 
@@ -47,17 +59,16 @@
               <td class="px-3 pt-4 md:mr-0 block whitespace-nowrap">
                 {{ index + 1 }}
               </td>
-              <td class="pt-3 px-3 whitespace-nowrap pr-6">
+              <td class="pt-3 px-3 whitespace-nowrap pr-10">
                 <div class="flex justify-start items-center space-x-4">
-                  <inline-svg :src="imageUrl(coin.desc)"></inline-svg>
+                  <img
+                    :src="require(`@/assets/images/coins/${coin.desc}.png`)"
+                    :alt="coin.name"
+                    class="w-10 h-10"
+                  />
                   <div class="name flex items-center space-x-2">
                     <span
-                      class="
-                        text-lg
-                        leading-5
-                        font-normal
-                        text-bizz-black-100
-                      "
+                      class="text-lg leading-5 font-normal text-bizz-black-100"
                       >{{ coin.name }}</span
                     >
                     <span
@@ -151,13 +162,11 @@ export default {
 </script>
 
 <style scoped>
- 
- section th {
-    font-weight: normal !important;
-    padding-bottom: 20px;
-  }
-  section td {
-    padding-bottom: 10px;
-  
+section th {
+  font-weight: normal !important;
+  padding-bottom: 20px;
+}
+section td {
+  padding-bottom: 10px;
 }
 </style>
