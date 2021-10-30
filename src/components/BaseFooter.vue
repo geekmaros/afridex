@@ -23,21 +23,53 @@
       <div class="space-y-4">
         <div class="text-gray-500 text-sm font-semibold">About</div>
         <div class="text-white font-medium">support:</div>
-        <div class="text-white font-light text-base hover:text-afridex-blue cursor-pointer ">
+        <div
+          class="
+            text-white
+            font-light
+            text-base
+            hover:text-afridex-blue
+            cursor-pointer
+          "
+        >
           <a href="mailto:support@afridex.io">support@afridex.io</a>
         </div>
       </div>
       <div class="space-y-4">
-        <div class="text-gray-500  text-sm font-semibold">Services</div>
-        <div class="text-white hover:text-afridex-blue cursor-pointer text-base font-light">
+        <div class="text-gray-500 text-sm font-semibold">Services</div>
+        <div
+          class="
+            text-white
+            hover:text-afridex-blue
+            cursor-pointer
+            text-base
+            font-light
+          "
+        >
           <a href="mailto:listing@afridex.io">Listing</a>
         </div>
-        <div class="text-white hover:text-afridex-blue cursor-pointer text-base font-light">
+        <div
+          class="
+            text-white
+            hover:text-afridex-blue
+            cursor-pointer
+            text-base
+            font-light
+          "
+        >
           <a href="mailto:business@afridex.io"
             >Partnerships/Institutional Services</a
           >
         </div>
-        <div class="text-white hover:text-afridex-blue cursor-pointer text-base font-light">
+        <div
+          class="
+            text-white
+            hover:text-afridex-blue
+            cursor-pointer
+            text-base
+            font-light
+          "
+        >
           <a href="mailto:investment@afridex.io ">Investment Offers</a>
         </div>
       </div>
@@ -45,13 +77,29 @@
         <div class="text-gray-500 text-sm font-semibold">
           <div>Legal</div>
         </div>
-        <div class="text-white hover:text-afridex-blue cursor-pointer text-base  font-light">
+        <div
+          class="
+            text-white
+            hover:text-afridex-blue
+            cursor-pointer
+            text-base
+            font-light
+          "
+        >
           <a
             href="https://docs.google.com/document/d/12O_OnkRXQ0lBF4c_5UxT4tBIA-hKWhN6F-ZHSLSKDhI/edit "
             >Privacy and Policy</a
           >
         </div>
-        <div class="text-white hover:text-afridex-blue cursor-pointer text-base  font-light">
+        <div
+          class="
+            text-white
+            hover:text-afridex-blue
+            cursor-pointer
+            text-base
+            font-light
+          "
+        >
           <a
             to="https://docs.google.com/document/d/14KDMkbTQCXbCxXDUJyyzDK7Ijk6SS3_7QtRuL-RTvZM/edit"
             >Terms of Use</a
@@ -71,18 +119,26 @@
         &copy; {{ getYear }} Afridex Exchange. All rights reserved.
       </div>
       <div class="space-x-4">
-        <a class="hover:text-afridex-blue" href=" https://twitter.com/afridexfinance ">
+        <a
+          class="hover:text-afridex-blue"
+          href=" https://twitter.com/afridexfinance "
+        >
           <i class="fab fa-twitter"></i
         ></a>
-        <a class="hover:text-afridex-blue"
+        <a
+          class="hover:text-afridex-blue"
           href="https://www.linkedin.com/company/afridex-finance-blockchain-company"
         >
           <i class="fab fa-linkedin"></i
         ></a>
-        <a class="hover:text-afridex-blue" href="https://facebook.com/afridexfinance/"
+        <a
+          class="hover:text-afridex-blue"
+          href="https://facebook.com/afridexfinance/"
           ><i class="fab fa-facebook"></i
         ></a>
-        <a class="hover:text-afridex-blue" href="https://www.youtube.com/channel/UCr4aopcKIc2HbxbhHEcVbLQ"
+        <a
+          class="hover:text-afridex-blue"
+          href="https://www.youtube.com/channel/UCr4aopcKIc2HbxbhHEcVbLQ"
           ><i class="fab fa-youtube"></i
         ></a>
         <a class="hover:text-afridex-blue" href="https://t.me/afridexfinance"

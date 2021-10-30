@@ -13,7 +13,7 @@
     :style="cssProps"
   >
     <nav-bar></nav-bar>
-    <div class="flex items-center pt-18 h-auto lg:h-screen justify-between">
+    <div class="flex items-center pt-20 md:pt-10 h-auto lg:h-screens justify-between">
       <div class="left">
         <span class="leading-5 font-bold text-afridex-blue-200"
           >TRADE SMARTER, NOT HARDER</span

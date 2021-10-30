@@ -1,12 +1,21 @@
 <template>
-  <section class="pt-24 pb-24 2xl:pt-5 px-10 md:px-0 md:pl-88px md:pr-101 w-full">
+  <section class="pt-24 pb-24 px-10 md:px-0 md:pl-88px md:pr-101 w-full">
     <div class="heading text-center">
-      <h2 class="text-black font-bold text-4xl md:text-54px leading-56px">
+      <h2
+        class="
+          text-black
+          why-header
+          font-bold
+          text-4xl
+          md:text-54px
+          md:leading-80px
+        "
+      >
         Why Use AFRIDEX
       </h2>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-8 mt-42px">
+    <div class="grids flex flex-col md:flex-row md:grid-cols-3 justify-between gap-8 w-full mt-42px">
       <div
         v-for="(why, index) in whyUs"
         :key="`why-${index}`"
@@ -73,4 +82,10 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+section {
+  .why-header {
+    letter-spacing: -0.02em;
+  }
+}
+</style>

@@ -16,10 +16,12 @@
         <h1
           class="
             text-black
-            font-semibold
-            text-5xl
+            buy-header
+            font-bold
+            text-left text-5xl
+            leading-71px
             md:text-54px
-            max-w-41rem
+            max-w-55rems
             mt-5
           "
         >
@@ -63,4 +65,10 @@ export default {
 };
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+section {
+  .buy-header {
+    max-width: 650px;
+  }
+}
+</style>
