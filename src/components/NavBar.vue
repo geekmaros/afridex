@@ -163,7 +163,7 @@
         />
       </svg>
     </div>
-    <div class="hamburger ml-8 relative z-50">
+    <div class="dd-hamburger ml-8 relative z-50">
       <svg
         @click="toggleDropDown"
         width="37"
