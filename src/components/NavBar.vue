@@ -145,7 +145,7 @@
     </nav>
     <div
       @click="showAside = !showAside"
-      class="hamburger absolute mt-20 -ml-1 md:hidden ml-8 z-50"
+      class="hamburger absolute mt-20 -ml-1 cursor-pointer md:hidden ml-8 z-50"
     >
       <svg
         width="37"
@@ -167,7 +167,7 @@
       <svg
         @click="toggleDropDown"
         width="37"
-        class="currentColor"
+        class="currentColor cursor-pointer"
         height="36"
         viewBox="0 0 37 36"
         fill="none"
