@@ -3,7 +3,9 @@
     class="
       hero
       pb-44
-      bg-no-repeat lg:bg-bottom bg-cover
+      bg-no-repeat
+      lg:bg-bottom
+      bg-cover
       pl-5
       pr-5
       lg:pl-88px lg:pr-101
@@ -13,15 +15,34 @@
     :style="cssProps"
   >
     <nav-bar></nav-bar>
-    <div class="flex items-center pt-20 md:pt-10 h-auto lg:h-screens justify-between">
-      <div class="left">
+    <div
+      class="
+        md:flex
+        items-center
+        pt-20
+        md:pt-10
+        h-auto
+        lg:h-screens
+        justify-between
+      "
+    >
+      <div class="left z-30 w-full md:w-auto">
         <span class="leading-5 font-bold text-afridex-blue-200"
           >TRADE SMARTER, NOT HARDER</span
         >
-        <h1 class="text-white font-black leading-76px text-6xl md:max-w-md mt-5">
+        <h1
+          class="
+            text-white
+            font-black leading-65px
+            md:leading-76px
+            text-5xl
+            md:text-6xl md:max-w-md
+            mt-5
+          "
+        >
           Crypto Trading for Everyone
         </h1>
-        <p class="text-white text-2xl mt-6 max-w-lg">
+        <p class="text-white text-xl md:text-2xl mt-6 max-w-lg">
           A Tokenized Exchange for Products, Startups, and Businesses with Much
           More Options.
         </p>
@@ -43,7 +64,7 @@
           <span> GET STARTED </span>
         </router-link>
       </div>
-      <div class="right">
+      <div class="right hidden md:block md:relative">
         <inline-svg :src="heroSvg"></inline-svg>
       </div>
     </div>
