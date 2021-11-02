@@ -40,7 +40,7 @@
         w-full
         justify-between
         items-center
-        flex-wrap
+        flex-wrap z-40
       "
     >
       <div
@@ -163,11 +163,11 @@
         />
       </svg>
     </div>
-    <div class="dd-hamburger ml-8 relative z-50">
+    <div class="dd-hamburger ml-8 relative z-10">
       <svg
         @click="toggleDropDown"
         width="37"
-        class="currentColor cursor-pointer"
+        class="currentColor cursor-pointer z-10"
         height="36"
         viewBox="0 0 37 36"
         fill="none"
